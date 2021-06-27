@@ -1,0 +1,597 @@
+body,html{
+    overflow-x:hidden;
+}
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    width:100%;
+    background-color:#f8f8ff;
+    color:rgb(19, 19, 30);
+}
+.navbar__container{
+    width:100%;
+}
+.navbar{
+    display:flex;
+    height:70px;
+    justify-content:space-between;
+    padding:0 15px;
+    box-shadow: rgba(0, 0, 0, 0.804) 0px 1px 2px 0px;
+    z-index:1;
+    background-color:#fff;
+}
+.navbar__logo__container{
+    width:110px;
+    height:90%;
+    margin-top:5px;
+
+}
+.navbar__logo{
+    width:100%;
+    height:100%;
+    background-color:#fff;
+}
+.navbar__items{
+    display:flex;
+    gap:20px;
+}
+.navbar__item{
+    border:none;
+    background-color:#fff;
+}
+.navbar__container__others{
+    width:100%;
+    height:200px;
+    margin-top:25px;
+   padding-bottom:5px;
+   gap:5px;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:center;
+    background-color:50%#F9F9F9 40% #f8f8f8;
+    opacity:0.7;
+    background-color:rgb(249, 223, 191);
+}
+.navbar__container__others__item{
+    margin:5px 5px;
+    font-size:0.7em;
+    align-items:center;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.decoration__items{
+    width:35px;
+    height:35px;
+    margin-bottom:20px;
+}
+.decoration__items__description__link{
+    text-decoration: none;
+    color:rgb(19, 19, 30);
+}
+.decoration__items__description{
+    font-weight:10;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.decoration__items__image{
+    width:100%;
+    height:100%;
+}
+.header__banner__container{
+    width:100%;
+    height:150px;
+    background-color:white;
+    margin-bottom:100px;
+    margin-top:20px;
+}
+.header__banner{
+    width:100%;
+    height:100%;
+}
+.container__description{
+    text-align:center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin:20px 0 20px 0;
+}
+.description__text{
+    font-size:2.4em;
+    font-weight:80;
+    word-spacing:0.01em;
+
+}
+
+/* top items */
+.top__items{
+    width:100%;
+    position:relative;
+    /* padding:0 15px; */
+    
+}
+.top__items__background1{
+    position:absolute;
+    width:100%;
+    height:670px;
+    background-color:bisque;
+    transform:skewY(-5deg);
+    z-index:-3;
+    border:4px Wheat;
+}
+.top__items__background2{
+    position:absolute;
+    width:100%;
+    height:460px;
+    background-color:bisque;
+    transform:skewY(-5deg);
+    z-index:-3;
+    border:4px Wheat;
+}
+.top__items__array1{
+    display:flex;
+    justify-content:space-evenly;
+    /* flex-wrap:wrap; */
+    gap:39px;
+    padding:15px;
+    align-items:center;
+    margin:20px 0;
+}
+.top__items__array{
+    width:100%;
+    display:flex;
+    justify-content:space-evenly; 
+    flex-wrap:wrap;
+    gap:39px;
+    padding:15px;
+    align-items:center;
+    margin:20px 0;
+    margin-bottom:30px;
+}
+.top__item__desctiption{
+    text-align:center;
+}
+.image__container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.image__container1{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+h5{
+    text-align:center;
+    word-spacing:3px;
+    font-weight:70;
+}
+.item__image{
+    width:83px;
+    height:85px;
+    margin-top:40px;
+    border:10px double #fff;
+}
+.top__item__image{
+    width:100%;
+    height:100%;
+    
+}
+.item__image1{
+    width:90px;
+    height:90px;
+    
+}
+.statement{
+    text-align:center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin:20px 0 40px 0;
+}
+.statement__text{
+    font-size:2.4em;
+    font-weight:80;
+    word-spacing:0.01em;
+
+}
+
+/*Grid   */
+.grid__container{
+    padding:0 15px;
+    display:flex;
+    flex-direction:column;
+}
+.grid__row__1{
+    display:flex;
+    width:100%;
+    height:150px;
+}
+.grid__row__2{
+    display:flex;
+
+    width:100%;
+    height:150px;
+}
+.grid__row__1__image__container,.grid__row__2__image__container{
+    width:100%;
+    height:100%;
+}
+
+.grid__row__1__image,.grid__row__2__image
+{
+    width:100%;
+    height:100%;
+}
+.grid__text__1,.grid__text__2{
+    width:100%;
+    height:100%;
+    display:flex;
+    gap:10px;
+    flex-direction:column;
+    padding-top:40px;
+    align-items:center;
+}
+.grid__text__1,.grid__text__2{
+    font-size:1.09em;
+}
+.grid__box{
+    margin-bottom:30px;
+    background-color:#fff;
+    z-index:2;
+}
+
+/* new products */
+
+.new__products{
+    width:100%;
+    height:600px;
+    background-color:#fff;
+    margin:70px 0;
+    text-align:center;
+    padding-top:40px;
+}
+.product__container{
+    width:100%;
+    height:450px;
+    padding:30px;
+}
+.product__image{
+    width:100%;
+    height:100%;
+}
+.comment{
+    position:relative;
+    width:100%;
+    height:300px;
+    /* background-image:url("https://p7.hiclipart.com/preview/653/344/18/quotation-marks-in-english-art-block-quotation-quotation.jpg") ; */
+    background-size:cover;
+}
+.comment__background{
+    width:100%;
+    height:100%;
+    filter:blur(2px);
+
+}
+.comment__text{
+    position:absolute;
+    top:40%;
+    font-size:3em;
+    text-align:center;
+}
+
+/* about */
+.about{
+    width:100%;
+    height:510px;
+    background-color:#fff;
+    display:flex;
+
+    flex-direction:column;
+    padding-left:15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+
+.about__heading{
+    margin:40px 0;
+    display:flex;
+    word-spacing: 2px;
+}
+.mark{
+    background-color:rgb(246, 174, 87);
+    display:inline;
+    margin:0 10px;
+    width:5px;
+    height:25px;
+}
+.about__text{
+    margin:20px 0 40px 25px;
+    width:80%;
+    line-height:25px;
+}
+.about__heading h1 {
+    font-size:2em;
+}
+.timings{
+    display:flex;
+    margin:40px 0;
+}
+.timings__data{
+    margin:20px 0 20px 25px;
+    width:80%;
+}
+.timings h1 {
+    font-size:2em;
+}
+.partners{
+    width:100%;
+    height:670px;
+    background-color:#fff;
+    display:flex;
+   
+    flex-direction:column;
+    padding-left:15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+.list__brands {
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    line-height:30px;
+    margin: 20px 0;
+    text-align:left;
+    margin:20px 0 20px 25px;
+    width:80%;
+    font-weight: 40;
+
+}
+
+.contacts{
+    display:flex;
+    margin:20px 0;
+}
+.list__of__details {
+    list-style-type:none;
+    line-height:30px;
+    text-align:left;
+    margin:20px 0;
+    margin:20px 0 20px 25px;
+    width:80%;
+    font-weight: 40;
+}
+.footer{
+    border-radius:4px;
+    width:100%;
+    height:150px;
+    background-color:#fff;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+.logo__app{
+    display:flex;
+    padding-left:15px;
+    padding-top:15px;
+    gap:15px;
+}
+.footer__text{ text-align:right;
+margin-right:5px;
+margin-bottom:5px;}
+
+
+@media (min-width:768px){
+    .navbar__container__others{
+        justify-content:space-evenly;
+        gap:30px;
+        height:270px;
+        margin-top:0;
+    }
+    
+    .header__banner__container{
+        height:300px;
+    }
+    .decoration__items{
+        width:50px;
+        height:40px;
+    }
+    .header__banner__container{
+        height:250px;
+    }
+    .container__description{
+        height:50px;
+    }
+    .description__text{
+        font-size:60px;
+    }
+    .top__items{
+        height:1200px;
+        /* background-color:#fff; */
+    }
+    .top__items__background1{
+        z-index:-0.5;
+        height:750px;
+    }
+    .top__items__background2{
+        z-index:-0.5;
+    }
+    .top__item__description{
+        font-size:2em;
+        font-weight:100;
+        /* margin-bottom:20px; */
+        line-height: 25px;
+    }
+    .image__container1{
+        justify-content:space-between;
+        width:220px;
+        height:250px;
+    }
+    .image__container{
+        justify-content:space-evenly;
+        width:220px;
+        height:250px;
+    }
+    .item__image{
+        width:150px;
+        height:150px;
+        border-radius:10px;
+        border:none;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+    .top__items__array1{
+        margin:40px 0;
+        height:500px;
+    }
+    .item{
+        justify-content: space-evenly;
+        width:240px;
+        height:300px;
+    }
+    .top__items__array{
+        margin-bottom:70px;
+        /* background-color:#fff; */
+
+    }
+    .top__item__image:hover{
+      z-index:5;
+      border:2px solid black;
+    }
+    .top__item__image{
+        border-radius:10px;
+        transform:scale(1.5,1.5);
+        
+    }
+    /* grid container */
+    .grid__Container{
+        margin:100px 0;
+    }
+    .statement{
+        font-size:25px;
+    }
+    .grid__row__1,.grid__row__2{
+        height:200px;
+    }
+    .grid__row__1__image__Container{
+        width:50%;
+    }
+    .comment{
+        height:350px;
+        display:flex;
+        justify-content: center;
+        align-items:center;
+    }
+    .comment__text p{
+        font-size:50px;
+    }
+    .about__heading h1,.timings h1,.contacts h1 {
+        height:35px;
+        font-size:2em;
+        margin-bottom:50px;
+    }
+    .partners{
+        height:740px;
+    }
+    .timings__data,.list__brands{
+        font-size:20px;
+        font-weight:10;
+    }
+    
+    .mark{
+        height:30px;
+    }
+    .about__text{
+        font-size:17px;
+    }
+    
+}
+@media (min-width:1200px){
+    .navbar__container__others{
+        height:200px;
+    }
+   .header__banner__container{
+       height:370px;
+   }
+   .container__description{
+       height:60px;
+       font-size:60px;
+   }
+   .item h4{
+       font-size:1.4em;
+       text-align:center;
+   }
+   .image__container1{
+       width:250px;
+       gap:30px;
+       justify-content: space-evenly;
+   }
+   .grid__container{
+       flex-direction: row;
+       align-items:center;
+       gap:20px;
+       width:100%;
+   }
+   .statement__text{
+       line-height:90px;
+       font-size:90px;
+       color:rgb(5, 5, 114);
+   }
+   .about__text{
+       width:70%;
+   }
+   .grid-box{
+       width:80%;
+   }
+   .grid__row__1__image__container,.grid__row__2__image__container{
+       width:350px;
+   }
+   .grid__text__1,.grid__text__2{
+       width:350px;
+   }
+   .new__products{
+       margin:140px 0;
+       height:700px;
+      display:flex;
+      flex-direction:column;
+      justify-content: center;
+      align-items:center;
+   }
+   .product__container{
+       height:600px;
+       width:80%;
+   }
+   .new__products h1{
+       line-height:70px;
+       font-size:60px;
+       color:rgb(5, 5, 114);
+       font-weight:100;
+   }
+   .comment{
+       height:450px;
+   }
+   .comment__text{
+       font-size:90px;
+   }
+   .mark{
+      
+       height:50px;
+   }
+   .about{
+      display:flex;
+      flex-direction:row;
+
+
+   }
+   .about__heading,.timings{
+       font-size:25px;
+       font-weight:100;
+       margin-bottom:45px;
+
+   }
+
+   .about__text{
+       font-size:20px;
+   }
+   .footer{
+       padding:15px;
+   }
+}
